@@ -1,8 +1,8 @@
 cask "bolo" do
-  version "1.0.0"
-  sha256 "602722551a45cab018933702b20e6bb3b4091d7f6dfb40990042627fc5b25aa1"
+  version :latest
+  sha256 :no_check
 
-  url "https://rsbrckveklnximzfnczw.supabase.co/functions/v1/download?v=#{version}"
+  url "https://rsbrckveklnximzfnczw.supabase.co/functions/v1/download"
   name "Bolo"
   desc "AI-powered voice dictation for macOS"
   homepage "https://www.bolo.sh"
